@@ -54,7 +54,7 @@ else:
         temp_string = ''
         flag = 0
         for i in range(1, len(input_data)):    
-            if (not input_data[0].isdigit()) or (not input_data[i-1].isdigit() and not input_data[i].isdigit()): # Проверка, на задвоение букв или отстутсвие цифры в самом начале
+            if (not input_data[0].isdigit()) or (not input_data[i-1].isdigit() and not input_data[i].isdigit()): # Проверка, на задвоение букв или отсутствие цифры в самом начале.
                 print(f'Ошибка ввода! Перед {i}-м символом нет цифры!')
                 flag = 1
                 break
